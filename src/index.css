@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.rec-page{
+  width: 80%;
+  height: 100vh;
+  margin: auto;
+  border: 20px solid blue;
+  outline: 20px solid red;
+  
+}

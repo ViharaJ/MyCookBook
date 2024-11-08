@@ -27,8 +27,11 @@ nav {
 }
 
 .sub-form {
+  width: 80%;
   max-width: 1000px;
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 ul li{

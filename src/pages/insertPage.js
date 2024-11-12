@@ -20,7 +20,6 @@ export default function InsertPage(){
     };
 
     return (
-        <div className="container">
             <form className="sub-form" onSubmit={handleSubmit}>
                 <label>
                     Recipe Name: <input type="text" onChange={e => setTitle(e.target.value)}/>   
@@ -35,7 +34,6 @@ export default function InsertPage(){
                 </label>
                 <button>Submit</button>
             </form>
-        </div>
 
     );
 }

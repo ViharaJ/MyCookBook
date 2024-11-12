@@ -26,12 +26,12 @@ nav {
   padding:1rem;
 }
 
-.sub-form {
+.detail {
   width: 80%;
   max-width: 1000px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid black;
 }
 
 ul li{
@@ -42,4 +42,13 @@ ul li{
 
 a {
   text-decoration: none;
+}
+
+table {
+  width:80%;
+  margin: 0 auto;
+}
+
+td:nth-child(2) {
+  background-color: red;
 }

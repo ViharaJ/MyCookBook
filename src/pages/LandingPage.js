@@ -1,25 +1,22 @@
 import { Outlet } from 'react-router-dom'
+
 import Navbar from '../navbar.js'
+import "../landing.css"
+import TagCard from '../components/tagCard.js'
 
 export default function Landing(){
+    let tags = ["desrt", "lunch", "dinner", "forest"];
+
     return (
         <div className="Home">
            <Navbar/>
-           <table>
-                <tr>
-                    <th>Name</th>
-                    <th>Tag</th>
-                    <th>Calories</th>
-                </tr>
-                <tr>
-                    <td>Egg fried rice</td>
-                    <td>Rice</td>
-                    <td>340</td>
-                </tr>
-           </table>
-           <div className="detail">
-                <Outlet/>
-            </div>
+           <div className="tag-grid">
+                {
+                    tags.map(t => (
+                        <TagCard tag={t}/>
+                    ))
+                }
+           </div>
         </div>
     )
 }

@@ -1,0 +1,25 @@
+.tag-grid {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding:1em;
+}
+
+.tag-card{
+    width:250px;
+    height:300px;
+    border: 1px solid purple;
+    border-radius: 3%;
+}
+
+img{
+    width: 100%;
+}
+
+.tag-card h4 {
+    width: 100%;
+}

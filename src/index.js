@@ -18,7 +18,7 @@ const router = createBrowserRouter([
     }]
   },
   {
-    path: "rec/:id",
+    path: "/rec",
     element:<RecPage/>
   }
 ]);

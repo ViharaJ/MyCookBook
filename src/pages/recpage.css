@@ -1,0 +1,62 @@
+h2 {
+    margin:0;
+    padding-bottom: 0.75em;
+}
+
+.img-container {
+    max-height: 14em;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 1em;
+}
+
+.rec-page{
+    width: 65%;
+    margin: auto;
+    padding: 2em;
+    background-color: #FEF3E2;
+  }
+
+.img-container img{
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.info {
+    display: flex;
+    column-gap: 1em;
+    padding: 1em;
+}
+
+.servings li {
+    display: inline-block;
+    padding: 0 0.5em;
+}
+
+.ingredients {
+    background-color: #f9b3ae;
+    padding: 1em;
+    width: 300px;
+}
+
+.instructions {
+    flex: 2;
+    background-color: white;
+    padding: 1em;
+}
+
+h5 {
+    margin:0;
+    text-transform: uppercase;
+}
+
+@media (max-width: 400px) {
+    .info {
+      display: block;
+      .instructions, .ingredients {
+        width: 100%;
+        margin: 0 0 10px 0;
+      }
+    }
+  }

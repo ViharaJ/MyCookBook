@@ -1,7 +1,5 @@
-import { Outlet } from 'react-router-dom'
-
-import Navbar from '../navbar.js'
-import "../landing.css"
+import Navbar from '../components/navbar.js'
+import "./landing.css"
 import TagCard from '../components/tagCard.js'
 
 export default function Landing(){

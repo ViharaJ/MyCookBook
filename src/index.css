@@ -12,18 +12,12 @@ code {
     monospace;
 }
 
-.rec-page{
-  width: 80%;
-  height: 100vh;
-  margin: auto;
-  border: 20px solid blue;
-  outline: 20px solid red;
-}
 
 nav {
   display: flex;
   justify-content: space-between;
   padding:1rem;
+  background-color: rgb(223, 248, 255);
 }
 
 .detail {
@@ -34,7 +28,7 @@ nav {
   border: 1px solid black;
 }
 
-ul li{
+.nav-links li{
   display: inline-block;
   padding: 0 1em;
 

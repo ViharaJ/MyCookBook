@@ -1,5 +1,4 @@
 import { useState } from "react";
-import Navbar from "../navbar";
 
 export default function InsertPage(){
     const [title, setTitle] = useState("");

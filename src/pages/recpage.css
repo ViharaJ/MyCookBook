@@ -60,3 +60,7 @@ h5 {
       }
     }
   }
+
+.prep-time, .cook-time, .servings {
+    width: .8125em;
+}

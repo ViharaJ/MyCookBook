@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./insert.css"
 
 export default function InsertPage(){
     const [title, setTitle] = useState("");
@@ -20,6 +21,7 @@ export default function InsertPage(){
 
     return (
             <form className="sub-form" onSubmit={handleSubmit}>
+                
                 <label>
                     Recipe Name: <input type="text" onChange={e => setTitle(e.target.value)}/>   
                 </label>

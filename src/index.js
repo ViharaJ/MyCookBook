@@ -6,6 +6,7 @@ import InsertPage from './pages/insertPage';
 import { createBrowserRouter, RouterProvider} from 'react-router-dom';
 import Landing from './pages/LandingPage'
 import Root from './pages/Root';
+import Login from './pages/loginPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
     {
       path:"/create",
       element:<InsertPage/>
+    },
+    {
+      path:"/login",
+      element:<Login/>
     }]
   },
 ]);

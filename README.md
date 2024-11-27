@@ -1,13 +1,14 @@
 ### TO-DO
 
-- [ ] Landing page - click to rec page
-    - make card image clickable *
+- [x] Landing page - click to rec page
+    - [x] make card image clickable *
     - [x] center h4 text
-- [ ] Search bar
-- [ ] login css 
+- [ ] complete tag page
 - [ ] sign up css
 - [ ] sign up page
 - [ ] login page
+- [ ] login css 
+- [ ] Search bar
 - [ ] qr codes
 - [ ] different nav bar for sign in
 - [x] set up database 

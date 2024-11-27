@@ -4,7 +4,7 @@ import "./recpage.css"
 
 export default function RecPage(){
     let rec = {"id":1, "name":"Chicken Pasta", "ingredients":["blah", "blah", "blah", "blah", "blah", "blah"], "explanations":["asdljfasl;dfjasdl;fj", "asdfasdfasdf"]};
-
+    
     return (
         <div className="rec-page">
                 <h2>{rec.name}</h2>

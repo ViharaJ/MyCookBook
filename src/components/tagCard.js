@@ -1,11 +1,11 @@
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 
 export default function TagCard({tag}){
 
     return (
         <div className={`tag-card ${tag}`}>
-            <img src={require("../birthdaycake.png")} alt="Birthday Cake"/>
-            <p className="tag-name">{tag}</p>
+            <Link to={`/recipes/${tag}`}><img src={require("../birthdaycake.png")} alt="Birthday Cake"/></Link>
+            <Link to={`/recipes/${tag}`}><p className="tag-name">{tag}</p></Link>
         </div>
     );
 }

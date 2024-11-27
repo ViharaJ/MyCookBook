@@ -29,4 +29,7 @@
     text-transform: uppercase;
 }
 
+.tag-name, .tag-name:visited, .tag-name:hover, .tag-name:active {
+    color: black;
+  }
 

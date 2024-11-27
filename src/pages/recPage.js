@@ -1,6 +1,5 @@
 import IngredientBlk from "../components/IngredientBlk";
 import InstructBlk from "../components/InstructionBlk";
-import Navbar from "../components/navbar";
 import "./recpage.css"
 
 export default function RecPage(){

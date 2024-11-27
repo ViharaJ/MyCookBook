@@ -15,22 +15,26 @@ const router = createBrowserRouter([
     path: "/", 
     element: <Root/>,
     children: [{
-      path:"/",
-      element:<Landing/>
-    }, 
-    {
-      path: "/rec",
-      element:<RecPage/>
-    },
-    {
-      path:"/create",
-      element:<InsertPage/>
-    },
-    {
-      path:"/login",
-      element:<Login/>
-    }]
+        path:"/",
+        element:<Landing/>
+      }, 
+      {
+        path: "/rec",
+        element:<RecPage/>
+      },
+      {
+        path:"/create",
+        element:<InsertPage/>
+      },
+      {
+        path:"/login",
+        element:<Login/>
+      }]
   },
+  {
+    path:"/rec/:id",
+    element:<RecPage/>
+  }
 ]);
 
 root.render(

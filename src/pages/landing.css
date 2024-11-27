@@ -20,6 +20,13 @@
     width: 100%;
 }
 
-.tag-card h4 {
-    width: 100%;
+.tag-name{
+    text-align: center;
+    padding-top: 0.7rem;
+    font-size: 1rem;
+    margin:0 auto;
+    font-weight:bold;
+    text-transform: uppercase;
 }
+
+

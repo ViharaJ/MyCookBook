@@ -1,7 +1,7 @@
 {
   "recipes": [
     {
-      "id": "1",
+      "name": "Chicken garlic pasta",
       "ingredients": [
         "blah",
         "blah",
@@ -13,10 +13,12 @@
       "explanations": [
         "asdljfasl;dfjasdl;fj",
         "asdfasdfasdf"
-      ]
+      ], 
+      "tag":"dessert",
+      "image":"None"
     },
     {
-      "id": "2",
+      "name": "Oil pasta",
       "ingredients": [
         "blah",
         "blah",
@@ -28,8 +30,10 @@
       "explanations": [
         "asdljfasl;dfjasdl;fj",
         "asdfasdfasdf"
-      ]
+      ], 
+      "tag": "dessert",
+      "image":"None"
     }
   ], 
-  "tags":["chicken", "dessert", "rice", "salty"]
+  "tags":{"tags":["chicken", "dessert", "rice", "salty"]}
 }

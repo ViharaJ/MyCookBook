@@ -3,7 +3,7 @@
 - [x] Landing page - click to rec page
     - [x] make card image clickable *
     - [x] center h4 text
-- [ ] complete tag page
+- [x] complete tag page
 - [ ] sign up css
 - [ ] sign up page
 - [ ] login page

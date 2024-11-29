@@ -1,7 +1,11 @@
-import {useState, useEffect} from "react-router-dom"
+import {useState, useEffect} from "react"
+import {useParams} from "react-router-dom"
 import RecCard from "../components/recCard";
+import "./tagpage.css"
 
-export default function (){
+export default function TagPage(){
+    const {tag} = useParams();
+
     const [recs, setRecs] = useState(null);
 
     useEffect(() => {
@@ -10,13 +14,14 @@ export default function (){
                 return res.json();
             })
             .then(data => {
-                setRecs(data.recipes);
+                let newD = data.filter(d =>  d.tag === tag);
+                setRecs(newD);
             })
         },[]);
 
     return (
         <div className="Home">
-           <div className="tag-grid">
+           <div className="rec-grid">
                 {recs && 
                     recs.map(t => (
                         <RecCard rec={t}/>

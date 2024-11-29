@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import RecPage from './pages/recPage';
 import InsertPage from './pages/insertPage';
+import TagPage from './pages/tagPage';
 import { createBrowserRouter, RouterProvider} from 'react-router-dom';
 import Landing from './pages/LandingPage'
 import Root from './pages/Root';
@@ -19,10 +20,6 @@ const router = createBrowserRouter([
         element:<Landing/>
       }, 
       {
-        path: "/rec",
-        element:<RecPage/>
-      },
-      {
         path:"/create",
         element:<InsertPage/>
       },
@@ -31,8 +28,8 @@ const router = createBrowserRouter([
         element:<Login/>
       },
       {
-        path:"/recipes",
-        element:<tagPage/>
+        path:"/recipes/:tag",
+        element:<TagPage/>
       }]
   },
   {

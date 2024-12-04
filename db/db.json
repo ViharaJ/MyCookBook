@@ -37,5 +37,6 @@
       "image":"None"
     }
   ], 
-  "tags":{"tags":["chicken", "dessert", "rice", "salty"]}
+  "tags":{"tags":["chicken", "dessert", "rice", "salty"]}, 
+  "users":[{"email": "fancypants@gmail.com", "password":"fancypants"}]
 }

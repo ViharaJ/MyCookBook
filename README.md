@@ -11,10 +11,10 @@
 - [ ] Search bar
 - [ ] qr codes
 - [ ] different nav bar for sign in
-- [x] set up database 
+- [] set up database 
     - Recipe: 
         - name, tag, image*, id, ingredient, explanations
 
 
-###Start up 
+### Start up 
 `npx json-server db/db.json`
